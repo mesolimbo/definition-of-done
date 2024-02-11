@@ -2,6 +2,14 @@
 
 A guide for developers looking to release and maintain quality software.
 
+## Usage
+
+The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder. The compiled documentation is then available [here](https://mesolimbo.github.io/definition-of-done/).
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -35,14 +43,9 @@ You need to have Docker installed to test locally:
 
 Now, you can browse the documentation at [http://localhost:4000](http://localhost:4000).
 
-## Usage
+### Customize CSS
 
-The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder. The compiled documentation is then available [here](https://mesolimbo.github.io/definition-of-done/).
-
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+A stylesheet is located at `docs/assets/css/style.scss`. You can customize the CSS by editing this file.
 
 ## Contact
 
