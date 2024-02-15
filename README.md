@@ -16,9 +16,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to have Docker installed to test locally:
+You need to have Docker (and optionally Ruby) installed to test locally:
 
 - Docker: You can install Docker by following the instructions on the official [Docker website](https://docs.docker.com/get-docker/).
+- Ruby: You can install Ruby by following the instructions on the official [Ruby website](https://www.ruby-lang.org/en/documentation/installation/).
+  
+  After installing Ruby, you will need to install Bundler and Rake:
+   
+  ```bash
+  gem install bundler rake
+  ```
 
 ### Installation
 
@@ -30,15 +37,28 @@ You need to have Docker installed to test locally:
     ```bash
     cd definition-of-done
     ```
-3. Build the Docker image:
+3. If you are using bundler, install the dependencies:
+    ```bash
+    bundle install
+    ```
+4. Build the Docker image:
     ```bash
     docker build -t jekyll-site .
     ```
+    or using bundler:
+    ```bash
+    bundle exec rake docker:build
+    ```
+
 4. Run the Docker container:
     ```bash
     docker run --rm -p 4000:4000 -v "$PWD:/usr/src/app" \
       jekyll-site bundle exec jekyll serve              \
       --source /usr/src/app/docs --host 0.0.0.0
+    ```
+   or using bundler:
+    ```bash
+    bundle exec rake docker:run
     ```
 
 Now, you can browse the documentation at [http://localhost:4000](http://localhost:4000).
