@@ -1,10 +1,10 @@
 # The Definition of Done
 
-A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll SPA.
+A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll SPA. You can read the compiled documentation [here](https://mesolimbo.github.io/definition-of-done/).
 
 ## Usage
 
-The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder. The compiled documentation is then available [here](https://mesolimbo.github.io/definition-of-done/).
+The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder.
 
 ## Contributing
 
