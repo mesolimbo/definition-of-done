@@ -66,7 +66,3 @@ Now, you can browse the documentation at [http://localhost:4000](http://localhos
 ### Customize CSS
 
 A stylesheet is located at `docs/assets/css/style.scss`. You can customize the CSS by editing this file.
-
-## Contact
-
-Project Link: [https://github.com/mesolimbo/definition-of-done](https://github.com/mesolimbo/definition-of-done)
