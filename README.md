@@ -1,18 +1,12 @@
 # The Definition of Done
 
-A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll SPA. You can read the compiled documentation [here](https://mesolimbo.github.io/definition-of-done/).
+A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll SPA.
 
-## Usage
-
-The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+[You can read the compiled documentation here](https://mesolimbo.github.io/definition-of-done/).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get your copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -63,7 +57,11 @@ You need to have Docker (and optionally Ruby) installed to test locally:
 
 Now, you can browse the documentation at [http://localhost:4000](http://localhost:4000).
 
+## Usage
+
 ### Updating content
+
+The Markdown documentation in this project is compiled automatically by Github using Jekyll whenever you commit changes to the main branch in the `docs` folder.
 
 The core of the documentation is located in a set of YAML data files in the `_data` directory. The `sections.yml` file lists all the sections, their `title` and `blurb`, as well as a the name of each section's `details` YAML file.
 
@@ -72,3 +70,7 @@ Each section's details file contains a list of steps, each with a `title`, `summ
 ### Customize CSS
 
 A stylesheet is located at `docs/assets/css/style.scss`. You can customize the CSS by editing this file.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
