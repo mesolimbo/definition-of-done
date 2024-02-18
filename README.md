@@ -1,6 +1,6 @@
 # The Definition of Done
 
-A guide for developers looking to release and maintain quality software.
+A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll SPA.
 
 ## Usage
 
@@ -62,6 +62,10 @@ You need to have Docker (and optionally Ruby) installed to test locally:
     ```
 
 Now, you can browse the documentation at [http://localhost:4000](http://localhost:4000).
+
+### Updating content
+
+The core of the documentation is located in a set of YAML data files in the `_data` directory. A sections.yml file lists all the sections and the section blurbs, as well as a the name of each section's details YAML file. Each section's details file contains a list of elements, each with a title, summary, and expandable content. The details are written in Markdown and can include HTML.
 
 ### Customize CSS
 

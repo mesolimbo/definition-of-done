@@ -1,0 +1,9 @@
+- title: Deprecation Plan
+  summary: Plan for removing features or components from the software.
+  content: Just as important as adding new features and functionality is the process of removing old ones. This is especially true for software that is used by others, as it can be difficult to remove features without causing disruption. A good deprecation plan will help you to remove features in a way that is as painless as possible for your users.
+- title: Retirement Plan
+  summary: Plan for retiring the software with an emphasis on protecting user data and providing a migration path.
+  content: ...
+- title: Iterate Over This Definition
+  summary: Continuously review and refine the development and deployment process, embracing improvement based on feedback, technological advancements, and evolving best practices.
+  content: ...

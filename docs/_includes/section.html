@@ -1,0 +1,7 @@
+## {{ include.title }}
+
+{{ include.blurb }}
+
+{% for detail in site.data.[include.details] %}
+{% include details.html title=detail.title summary=detail.summary content=detail.content %}
+{% endfor %}

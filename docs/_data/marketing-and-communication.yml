@@ -1,0 +1,15 @@
+- title: Sales Documentation & Training Material
+  summary: Product understanding materials for sales and support teams.
+  content: Ultimately, your software is only as good as the people who sell it. Sales and support teams need to understand the product inside and out to effectively communicate its value to customers. This includes training materials, product documentation, and other resources.
+- title: Announcements Email/Blog
+  summary: Public announcements on features, releases, or changes.
+  content: ...
+- title: Press
+  summary: Media engagement for product coverage.
+  content: ...
+- title: Events
+  summary: Product promotion and community engagement through events.
+  content: ...
+- title: Community and External Developer Support
+  summary: Fostering a supportive environment for the community and enabling external developers through documentation, SDKs, APIs, forums, and other resources.
+  content: ...

@@ -8,18 +8,6 @@ Not every step outlined is necessary for every project; there are always trade-o
 
 Click on any step below to read a more detailed description.
 
-{% include planning.html %}
-
-{% include early-development.html %}
-
-{% include integration-and-testing.html %}
-
-{% include release-and-deployment.html %}
-
-{% include productionization.html %}
-
-{% include continuous-enhancement.html %}
-
-{% include marketing-and-communication.html %}
-
-{% include beyond-done.html %}
+{% for section in site.data.sections %}
+{% include section.html title=section.title blurb=section.blurb details=section.details %}
+{% endfor %}

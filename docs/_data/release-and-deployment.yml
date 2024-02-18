@@ -1,0 +1,28 @@
+- title: Dry Run Mode and Feature Flags
+  summary: Feature for operational validation without affecting live environments and dynamic feature toggling for testing and rollout.
+  content: Dry Run Mode and Feature Flags are crucial for validating changes without affecting live environments. For instance, in a Golang project, a dry run mode could be implemented to simulate changes without actually applying them, providing a safe way to verify the impact. Feature flags can be used to dynamically toggle features, allowing for safe testing and more sophisticated gradual rollouts.
+- title: Training and Support Plan
+  summary: Comprehensive plan for training internal users/administrators and supporting them post-release.
+  content: The Training and Support Plan ensures internal users and administrators are well-equipped to use the new software. For instance, this could involve creating user manuals, providing training sessions, and setting up a support system to handle queries and issues post-release.
+- title: Communication and Stakeholder Engagement
+  summary: Includes Client Impact Communication, Release Notes, and plans for communicating with stakeholders about the release.
+  content: The Communication and Stakeholder Engagement step involves preparing and executing a plan for communicating with all stakeholders about the release. This includes creating client impact communications, drafting release notes, and setting up channels for ongoing communication. The goal is to ensure all stakeholders are informed and engaged throughout the release process.
+- title: Incident Response and Postmortem Plan
+  summary: You should be prepared to handle post-release issues and document incidents in Postmortem documentation.
+  content: The Incident Response step involves preparing for and handling any incidents that may occur post-release. This includes setting up an incident response team, creating an incident response plan, conducting regular incident response drills, and documenting incidents in Postmortem documentation. The goal is to ensure that the team is well-prepared to handle any issues that may arise, minimizing the impact on users and the system, and learning from these incidents to prevent future occurrences.
+- title: Staging/Alpha/Beta and Sign Off Stages
+  summary: Final testing in a production-mimicking environment and approval stages from internal, selected users, to general availability.
+  content: The Staging and Sign Off Stages involve final testing in a production-mimicking environment and approval stages from internal, selected users, to general availability. This ensures that the software behaves as expected in a real-world setting before it is released to all users. It includes Alpha and Beta testing stages, where the software is tested by a limited audience under real-world conditions. Any issues discovered during these stages can be addressed before the software is made generally available, ensuring a smooth launch and user experience.
+- title: Release Pipeline
+  summary: Covers the entire lifecycle from Release Candidate to General Release, including testing, sign-off, and deployment plans.
+  content: >
+    <p>The Release Process involves packaging a Release Candidate (e.g., a consistent build of a tagged commit), testing it, and preparing a Release, Deployment, and Rollback Plan. The software is then gradually released to production (or reverted as needed) and reviewed post-release. Each step is designed to ensure a smooth and reliable release with minimal user impact.</p>
+    <p>A basic automated pipeline could comprise the following steps for example:</p>
+    <p><ul>
+      <li>Release Candidate: Build and package software upon tagging or commit to a production branch.</li><li>Release Candidate Testing: Final automated testing of the release candidate.</li>
+      <li>Release Candidate Sign Off: Approval of the release candidate as required for compliance.</li>
+      <li>Rollback preparation: Ensure previous packaged builds are available in case of serious issues.</li><li>CD & Rollback (Continuous Deployment): Automated deployment with rollback capabilities.</li>
+    </ul></p>
+- title: Review and Improvement
+  summary: Post-release activities including Post-Release Testing, and Post-Release Sign Off to review and learn from the release process.
+  content: These activities are designed to review and learn from the release process, identify areas for improvement, and implement changes for future releases. This ensures continuous improvement and refinement of the release process. Post-Release Testing ensures that the software continues to function as expected in the live environment, and Post-Release Sign Off confirms that all release objectives have been met and the software is ready for ongoing support and maintenance.

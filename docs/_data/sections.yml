@@ -1,0 +1,24 @@
+- title: Planning and Design
+  blurb: Your time is valuable, and so is your team's. Take some time to plan and design your software before you start writing code. This will help you avoid wasted effort and ensure that your software meets the needs of your users.
+  details: planning
+- title: Early Development and Prototyping
+  blurb: This is the stage most commonly associated with software development. It's where you take your idea and turn it into a working prototype. This is where you'll make the most important decisions about your software, and where you'll lay the foundation for everything that comes after.
+  details: early-development
+- title: Integration and Testing
+  blurb: Once you've built your software, you need to make sure it works. This requires a comprehensive testing strategy that includes everything from unit tests to user acceptance testing.
+  details: integration-and-testing
+- title: Release and Deployment
+  blurb: The world is ready to meet your software, but are you ready to ship it the masses? You need a reliable release strategy that keeps developers moving forward, yet minimizes risks for stakeholders and end users.
+  details: release-and-deployment
+- title: Productionization
+  blurb: You've built your software, now you must make it production-worthy. You need to make sure that it's ready for the real world, and that means testing, security, and performance.
+  details: productionization
+- title: Continuous Enhancement
+  blurb: Even if you get everything right the first time, the world around you will change. You need to be prepared to adapt and evolve your software to meet new challenges and opportunities.
+  details: continuous-enhancement
+- title: Marketing and Communication
+  blurb: In order for your software to survive and thrive, you must ensure that it is adopted and used widely. This requires a marketing and communication plan that is as well thought out as your software itself.
+  details: marketing-and-communication
+- title: 'Beyond Done: Iterative Process Improvement'
+  blurb: All good things must come to an end, but that doesn't mean you're finished. You need to take the time to reflect on what you've done and how you've done it, and use that knowledge to improve your process for next time.
+  details: beyond-done
