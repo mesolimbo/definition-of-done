@@ -1,6 +1,6 @@
 # Overview
 
-This document gives advice and factors to consider in software development, deployment, and maintenance. It is a comprehensive guide covering planning and design, early development and prototyping, integration and testing, release and deployment, productionization, continuous enhancement, marketing and communication, and iterative process improvement.
+This document gives advice and factors to consider when developing, deploying, and maintaining software. It is a comprehensive guide covering planning and design, early development and prototyping, integration and testing, release and deployment, productionization, continuous enhancement, marketing and communication, and iterative process improvement.
 
 Not every step outlined is necessary for every project; there are always trade-offs between under-planning and over-engineering. Use your best judgement and omit steps when appropriate, or adopt steps incrementally as your project matures.
 

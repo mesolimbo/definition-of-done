@@ -43,8 +43,11 @@ You need to have Docker (and optionally Ruby) installed to test locally:
     ```bash
     bundle exec rake docker:build
     ```
+   
+   You'll need to rebuild if the Gemfile or Gemfile.lock changes.
 
-4. Run the Docker container:
+
+5. Run the Docker container:
     ```bash
     docker run --rm -p 4000:4000 -v "$PWD:/usr/src/app" \
       jekyll-site bundle exec jekyll serve              \
