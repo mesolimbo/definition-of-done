@@ -18,11 +18,15 @@
   content: >
     <p>The Release Process involves packaging a Release Candidate (e.g., a consistent build of a tagged commit), testing it, and preparing a Release, Deployment, and Rollback Plan. Gradually release the software to production (or reverted as needed) and review it post-release. These steps ensure a smooth and reliable release with minimal user impact.</p>
     <p>A basic automated pipeline could comprise the following steps for example:</p>
-    <p><ul>
-      <li>Release Candidate: Build and package software upon tagging or commit to a production branch.</li><li>Release Candidate Testing: Final automated testing of the release candidate.</li>
-      <li>Release Candidate Sign Off: Approval of the release candidate as required for compliance.</li>
-      <li>Rollback preparation: Ensure previous packaged builds are available in case of serious issues.</li><li>CD & Rollback (Continuous Deployment): Automated deployment with rollback capabilities.</li>
-    </ul></p>
+    <p>
+      <ul>
+        <li>Release Candidate: Build and package software upon tagging or commit to a production branch.</li>
+        <li>Release Candidate Testing: Final automated testing of the release candidate.</li>
+        <li>Release Candidate Sign Off: Approval of the release candidate as required for compliance.</li>
+        <li>Rollback preparation: Ensure previous packaged builds are available in case of serious issues.</li>
+        <li>CD & Rollback (Continuous Deployment): Automated deployment with rollback capabilities.</li>
+      </ul>
+    </p>
 - title: Review and Improvement
   summary: Post-release activities include Post-Release Testing and Post-Release Sign Off to review and learn from the release process.
   content: These activities allow you to review and learn from the release process, identify areas for improvement, and implement changes for future releases. This ensures continuous improvement and refinement of the release process. Post-Release Testing ensures that the software continues to function as expected in the live environment, and Post-Release Sign Off confirms that you met all release objectives and that the software is ready for ongoing support and maintenance.
