@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'html-proofer'
+
 # Gemfile command to start Jekyll preview server via Docker
 namespace :docker do
   desc 'Build Docker image'
@@ -13,3 +15,15 @@ namespace :docker do
           'jekyll-site bundle exec jekyll serve --source /usr/src/app/docs --host 0.0.0.0'
   end
 end
+
+desc 'Build Jekyll site and ensure HTML is valid'
+task :jekyll_test do
+  system 'bundle exec jekyll build --source ./docs --destination ./_site'
+
+  print "Checking HTML syntax\n"
+  HTMLProofer.check_directory('./_site', { assume_extension: true }).run
+rescue Error => e
+  abort "Error: #{e}"
+end
+
+task default: :jekyll_test
