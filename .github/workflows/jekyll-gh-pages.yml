@@ -33,9 +33,10 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./docs
           destination: ./_site
       - name: Test build
+        uses: ruby/setup-ruby@v1
         run: |
             gem install bundler
             bundle install
