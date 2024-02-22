@@ -18,5 +18,6 @@ jobs:
         - run: |
             gem install bundler
             bundle install
+        # To run tests, run default rake task
         - run: |
             bundle exec rake
