@@ -47,6 +47,7 @@ jobs:
             rubocop
             bundle exec rake proof_html
       - name: Upload artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
