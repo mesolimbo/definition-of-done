@@ -1,0 +1,28 @@
+# GitHub Workflow to run tests on push and pull requests
+name: Ruby HTML Check
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+        - uses: actions/checkout@v3
+        - name: Set up Ruby
+          uses: ruby/setup-ruby@v 1
+          with:
+            ruby-version: 3.3.0
+        - name: Install dependencies
+          run: |
+            gem install bundler
+            bundle install
+        - name: Run tests
+          run: |
+            bundle exec rake
