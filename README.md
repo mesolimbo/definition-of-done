@@ -2,7 +2,7 @@
 
 A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll document.
 
-[You can read the compiled documentation here](https://mesolimbo.github.io/definition-of-done/).
+[You can read the compiled documentation here.](https://isitdone.work/)
 
 ## Getting Started
 
