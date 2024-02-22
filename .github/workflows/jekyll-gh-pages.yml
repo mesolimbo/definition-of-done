@@ -37,7 +37,7 @@ jobs:
           destination: ./_site
       - name: Test build
         uses: ruby/setup-ruby@v1
-        run: |
+      - run: |
             gem install bundler
             bundle install
             rubocop
