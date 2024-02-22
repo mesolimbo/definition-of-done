@@ -35,11 +35,13 @@ jobs:
         with:
           source: ./docs
           destination: ./_site
-      - name: Test build
+      - name: Set up correct ruby version
         uses: ruby/setup-ruby@v1
       - run: |
             gem install bundler
             bundle install
+      - name: Test build
+        run: |
             rubocop
             bundle exec rake proof_html
       - name: Upload artifact
