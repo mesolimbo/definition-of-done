@@ -16,14 +16,20 @@ namespace :docker do
   end
 end
 
-desc 'Build Jekyll site and ensure HTML is valid'
-task :jekyll_test do
+desc 'Build local Jekyll site'
+task :local_jekyll_build do
   system 'bundle exec jekyll build --source ./docs --destination ./_site'
+end
 
+desc 'Pre-deploy test'
+task :proof_html do
   print "Checking HTML syntax\n"
   HTMLProofer.check_directory('./_site', { assume_extension: true }).run
 rescue Error => e
   abort "Error: #{e}"
 end
 
-task default: :jekyll_test
+desc 'Build local Jekyll site and ensure HTML is valid'
+task local_jekyll_test: %i[local_jekyll_build proof_html]
+
+task default: :local_jekyll_test
