@@ -76,4 +76,4 @@ A stylesheet is located at `docs/assets/css/style.scss`. You can customize the C
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please see [CONTRIBUTING.md](https://github.com/mesolimbo/definition-of-done/blob/main/CONTRIBUTING.md)
