@@ -17,7 +17,7 @@
   summary: Ensure your software remains accessible to all users, including those with disabilities, and compliant with other relevant standards and regulations.
   content: Like security, the accessibility requirements your software must meet might change even if the software itself doesn't. You need to make sure that your software is accessible to all users, including those with disabilities, and that it meets other relevant standards and regulations such as the Americans with Disabilities Act (ADA). The more you can do to ensure that your software is accessible and compliant, the better you'll be able to serve all of your users.
 - title: Regulatory Compliance
-  summary: Ensuring the software meets all relevant standards and regulations.
+  summary: Ensure the software meets all relevant standards and regulations.
   content: It is in your best interest to keep abreast of legislation that affects your industry, so that you don't find yourself in a panic when new laws pass. You need to make sure that your software meets all relevant standards and regulations, and that it complies with all relevant laws, such as the General Data Protection Regulation (GDPR) and the Digital Services Act (DSA). The more you can do to ensure that your software is compliant, the better you'll be able to protect your users and maintain trust in your organization.
 - title: Keeping Up with Technology
   summary: Stay current with the latest technology trends and with the competition.
