@@ -334,7 +334,7 @@ DEPENDENCIES
   github-pages
   html-proofer (= 5.0.8)
   rake (= 13.1.0)
-  rubocop
+  rubocop (= 1.61.0)
   webrick
 
 BUNDLED WITH
