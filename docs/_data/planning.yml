@@ -1,6 +1,6 @@
 - title: Identify the Problem and Solution Spaces
   summary: Define the problem you're solving and the goals you want to achieve.
-  content: Identifying the problem involves understanding the needs of your users, stakeholders, and the market. This includes defining the problem you're solving, the goals you want to achieve, and the constraints that bind you. This phase is crucial for setting the direction of your project and ensuring that you're solving a worthy problem.
+  content: Identifying the problem involves understanding the needs of your users, stakeholders, and the market. This includes defining the problem you're solving, the goals you want to achieve, and the constraints that bind you. This phase is crucial for setting the direction of your project and ensuring that you're solving a worthy problem. <a href='known.html' target='_blank'>Identify the tools (and expertise) needed to overcome the problem and constraints</a>.
 - title: EPS & RFCs
   summary: Propose and evaluate solutions and discuss technical and project scopes with your peers. This is also a good time to start documenting your project.
   content: EPS (Enhancement Proposal System) and RFCs (Request for Comments) provide structured methods for proposing, discussing, and reaching consensus on technical changes and project scopes. They give everyone an opportunity to contribute input and establish a record of decision-making.
