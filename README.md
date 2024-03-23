@@ -1,5 +1,7 @@
 # The Definition of Done
 
+[![Build GitHub Pages with Jekyll (with optional Deploy)](https://github.com/mesolimbo/definition-of-done/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mesolimbo/definition-of-done/actions/workflows/jekyll-gh-pages.yml)
+
 A guide for developers looking to release and maintain quality software, written as a data-driven DocOps Jekyll document.
 
 [You can read the compiled documentation here.](https://isitdone.work/)
@@ -45,7 +47,6 @@ You need to have Docker (and optionally Ruby) installed to test locally:
     ```
    
 5. You'll need to run steps 3 and 4 again to rebuild if the Gemfile or Gemfile.lock changes.
-
 
 6. Run the Docker container:
     ```bash
