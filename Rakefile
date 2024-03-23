@@ -24,7 +24,11 @@ end
 desc 'Pre-deploy test'
 task :proof_html do
   print "Checking HTML syntax\n"
-  HTMLProofer.check_directory('./_site', { assume_extension: true }).run
+  HTMLProofer.check_directory('./_site', {
+                                assume_extension: true,
+                                typhoeus: { followlocation: true },
+                                only_4xx: true
+                              }).run
 rescue Error => e
   abort "Error: #{e}"
 end
