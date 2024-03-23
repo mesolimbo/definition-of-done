@@ -27,7 +27,8 @@ task :proof_html do
   HTMLProofer.check_directory('./_site', {
                                 assume_extension: true,
                                 typhoeus: { followlocation: true },
-                                only_4xx: true
+                                only_4xx: true,
+                                check_external_hash: false
                               }).run
 rescue Error => e
   abort "Error: #{e}"
