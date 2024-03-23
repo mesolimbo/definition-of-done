@@ -31,7 +31,7 @@ You need to have Docker (and optionally Ruby) installed to test locally:
     ```bash
     cd definition-of-done
     ```
-3. If you are using bundler, install the dependencies:
+3. If you are using bundler, install the dependencies (and keep them up to date) with:
     ```bash
     bundle install
     ```

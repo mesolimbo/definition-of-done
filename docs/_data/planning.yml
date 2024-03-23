@@ -1,8 +1,11 @@
+- title: Identify the Problem and Solution Spaces
+  summary: Define the problem you're solving and the goals you want to achieve.
+  content: Identifying the problem involves understanding the needs of your users, stakeholders, and the market. This includes defining the problem you're solving, the goals you want to achieve, and the constraints that bind you. This phase is crucial for setting the direction of your project and ensuring that you're solving a worthy problem. <a href='/known.html' target='_blank'>Identify the tools (and expertise) needed to overcome the problem and constraints</a>.
 - title: EPS & RFCs
-  summary: Propose and discuss technical and project scopes with your peers. This is also a good time to start documenting your project.
+  summary: Propose and evaluate solutions and discuss technical and project scopes with your peers. This is also a good time to start documenting your project.
   content: EPS (Enhancement Proposal System) and RFCs (Request for Comments) provide structured methods for proposing, discussing, and reaching consensus on technical changes and project scopes. They give everyone an opportunity to contribute input and establish a record of decision-making.
 - title: Project Plan
-  summary: Identify key milestones, deadlines, available resources, and potential risks. Iterate over these with stakeholders as you go.
+  summary: Identify key simplified milestones, deadlines, available resources, and potential risks. Iterate over these with stakeholders as you go.
   content: A project plan outlines the key milestones, deadlines, available resource, and potential risks of your project. It serves as a roadmap, guiding your team's efforts and helping you track progress, but still allows you to remain agile. Regularly revisiting and updating your project plan with stakeholders ensures alignment and adaptability in the face of changes and challenges. In general, you want a process that takes you from "Moonshots" and abstract 5-year "Northstar" wishes to yearly plans and ultimately to quarterly OKRs and specific sprint plans.
 - title: User Stories
   summary: Define the software's features and requirements from the user's perspective.
