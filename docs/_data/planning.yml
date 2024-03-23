@@ -3,7 +3,7 @@
   content: EPS (Enhancement Proposal System) and RFCs (Request for Comments) provide structured methods for proposing, discussing, and reaching consensus on technical changes and project scopes. They give everyone an opportunity to contribute input and establish a record of decision-making.
 - title: Project Plan
   summary: Identify key milestones, deadlines, available resources, and potential risks. Iterate over these with stakeholders as you go.
-  content: A project plan outlines the key milestones, deadlines, available resource, and potential risks of your project. It serves as a roadmap, guiding your team's efforts and helping you track progress, but still allows you to remain agile. Regularly revisiting and updating your project plan with stakeholders ensures alignment and adaptability in the face of changes and challenges.
+  content: A project plan outlines the key milestones, deadlines, available resource, and potential risks of your project. It serves as a roadmap, guiding your team's efforts and helping you track progress, but still allows you to remain agile. Regularly revisiting and updating your project plan with stakeholders ensures alignment and adaptability in the face of changes and challenges. In general, you want a process that takes you from "Moonshots" and abstract 5-year "Northstar" wishes to yearly plans and ultimately to quarterly OKRs and specific sprint plans.
 - title: User Stories
   summary: Define the software's features and requirements from the user's perspective.
   content: >
