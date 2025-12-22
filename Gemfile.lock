@@ -244,7 +244,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.16.0)
+    json (2.18.0)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -286,7 +286,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
-    prism (1.6.0)
+    prism (1.7.0)
     public_suffix (5.1.1)
     racc (1.8.1)
     rainbow (3.1.1)
@@ -297,7 +297,7 @@ GEM
     regexp_parser (2.11.3)
     rexml (3.4.2)
     rouge (3.30.0)
-    rubocop (1.81.7)
+    rubocop (1.82.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -305,10 +305,10 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.47.1, < 2.0)
+      rubocop-ast (>= 1.48.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.47.1)
+    rubocop-ast (1.48.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     ruby-progressbar (1.13.0)
@@ -335,7 +335,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
-    unicode-emoji (4.1.0)
+    unicode-emoji (4.2.0)
     uri (0.13.2)
     webrick (1.9.2)
     yell (2.2.2)
@@ -350,7 +350,7 @@ DEPENDENCIES
   github-pages
   html-proofer (= 5.1.1)
   rake (= 13.3.1)
-  rubocop (= 1.81.7)
+  rubocop (= 1.82.0)
   webrick
 
 BUNDLED WITH
