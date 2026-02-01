@@ -1,7 +1,7 @@
 ---
 name: software-developer
 description: Use this agent when you need to implement features, write code, fix bugs, refactor existing code, or review implementations. The agent excels at writing clean, tested, maintainable code.\n\n<example>\nContext: The user needs to implement a new feature.\nuser: "Implement a rate limiter for our API endpoints"\nassistant: "I'll use the software-developer agent to implement a robust rate limiting solution"\n<commentary>\nSince the user needs feature implementation, the software-developer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user needs to fix a bug.\nuser: "Fix the race condition in our cache invalidation logic"\nassistant: "Let me launch the software-developer agent to diagnose and fix the race condition"\n<commentary>\nBug fixing and code quality are core software-developer responsibilities.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, Bash, TodoWrite, WebFetch, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---

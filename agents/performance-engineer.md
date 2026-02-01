@@ -1,7 +1,7 @@
 ---
 name: performance-engineer
 description: Use this agent when you need to optimize application performance, conduct load testing, analyze performance bottlenecks, or plan for scalability. The agent excels at making systems fast and efficient.\n\n<example>\nContext: The user has a slow API endpoint.\nuser: "Our search endpoint takes 5 seconds, help me optimize it"\nassistant: "I'll use the performance-engineer agent to analyze and optimize the search endpoint"\n<commentary>\nSince the user needs performance optimization, the performance-engineer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user needs to validate system capacity.\nuser: "Can our system handle 10,000 concurrent users?"\nassistant: "Let me launch the performance-engineer agent to design load tests and assess capacity"\n<commentary>\nLoad testing and capacity planning are core performance-engineer responsibilities.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, Bash, TodoWrite, WebFetch, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---
