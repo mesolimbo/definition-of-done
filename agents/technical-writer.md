@@ -2,7 +2,7 @@
 name: technical-writer
 description: Use this agent when you need to create documentation, write API references, develop tutorials, or improve existing documentation. The agent excels at clear, user-focused technical communication.\n\n<example>\nContext: The user needs API documentation.\nuser: "Document our REST API endpoints"\nassistant: "I'll use the technical-writer agent to create comprehensive API documentation"\n<commentary>\nSince the user needs documentation, the technical-writer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to create a getting started guide.\nuser: "Write a quickstart guide for new developers"\nassistant: "Let me launch the technical-writer agent to create a developer onboarding guide"\n<commentary>\nCreating tutorials and guides is a core technical-writer responsibility.\n</commentary>\n</example>
 tools: Glob, Grep, Read, Write, Edit, WebFetch, TodoWrite, WebSearch
-model: sonnet
+model: opus
 color: cyan
 ---
 
