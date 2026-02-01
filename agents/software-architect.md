@@ -1,7 +1,7 @@
 ---
 name: software-architect
 description: Use this agent when you need to design system architecture, make technology decisions, plan for scalability, or review architectural approaches. The agent excels at creating robust, maintainable system designs.\n\n<example>\nContext: The user needs to design a new system architecture.\nuser: "Design the architecture for a real-time messaging platform"\nassistant: "I'll use the software-architect agent to design a scalable messaging architecture"\n<commentary>\nSince the user needs system architecture design, the software-architect agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user is evaluating technology choices.\nuser: "Should we use GraphQL or REST for our API?"\nassistant: "Let me launch the software-architect agent to analyze the trade-offs for your specific use case"\n<commentary>\nTechnology decisions and API design are core software-architect responsibilities.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, WebFetch, TodoWrite, WebSearch, Bash
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---

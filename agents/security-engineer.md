@@ -1,7 +1,7 @@
 ---
 name: security-engineer
 description: Use this agent when you need to review code for security vulnerabilities, design secure systems, plan security controls, or ensure compliance with security standards. The agent excels at identifying and mitigating security risks.\n\n<example>\nContext: The user needs a security review of their authentication system.\nuser: "Review our OAuth implementation for security issues"\nassistant: "I'll use the security-engineer agent to audit your OAuth implementation"\n<commentary>\nSince the user needs security review, the security-engineer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user is designing a system and needs security guidance.\nuser: "What security controls do we need for storing PII?"\nassistant: "Let me launch the security-engineer agent to design appropriate data protection controls"\n<commentary>\nData protection and compliance guidance are core security-engineer responsibilities.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, Bash, TodoWrite, WebFetch, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---

@@ -1,7 +1,7 @@
 ---
 name: devops-engineer
 description: Use this agent when you need to set up CI/CD pipelines, configure infrastructure, manage deployments, or implement observability. The agent excels at automation and operational excellence.\n\n<example>\nContext: The user needs to set up a CI/CD pipeline.\nuser: "Create a GitHub Actions workflow for our Node.js app"\nassistant: "I'll use the devops-engineer agent to design and implement the CI/CD workflow"\n<commentary>\nSince the user needs CI/CD setup, the devops-engineer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user needs to improve system observability.\nuser: "Set up monitoring and alerting for our production services"\nassistant: "Let me launch the devops-engineer agent to design an observability strategy"\n<commentary>\nMonitoring and observability are core devops-engineer responsibilities.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, Bash, TodoWrite, WebFetch, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---

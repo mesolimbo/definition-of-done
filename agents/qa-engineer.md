@@ -1,7 +1,7 @@
 ---
 name: qa-engineer
 description: Use this agent when you need to design test strategies, create test plans, write test cases, or ensure quality assurance processes are followed. The agent excels at comprehensive testing approaches.\n\n<example>\nContext: The user needs to create a test plan for a new feature.\nuser: "Create a test plan for our checkout flow"\nassistant: "I'll use the qa-engineer agent to design a comprehensive test plan for checkout"\n<commentary>\nSince the user needs test planning, the qa-engineer agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user wants to improve test coverage.\nuser: "What edge cases should we test for file upload?"\nassistant: "Let me launch the qa-engineer agent to identify edge cases and test scenarios"\n<commentary>\nIdentifying test scenarios and edge cases is a core qa-engineer responsibility.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, Bash, TodoWrite, WebFetch, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---

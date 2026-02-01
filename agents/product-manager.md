@@ -1,7 +1,7 @@
 ---
 name: product-manager
 description: Use this agent when you need to plan product features, define user stories, manage stakeholder requirements, or create project roadmaps. The agent excels at translating business needs into actionable development plans.\n\n<example>\nContext: The user needs to define requirements for a new feature.\nuser: "Help me write user stories for our new authentication system"\nassistant: "I'll use the product-manager agent to help define comprehensive user stories for authentication"\n<commentary>\nSince the user needs to define product requirements and user stories, the product-manager agent is appropriate.\n</commentary>\n</example>\n\n<example>\nContext: The user is planning a new project and needs a roadmap.\nuser: "Create a project plan for migrating our monolith to microservices"\nassistant: "Let me launch the product-manager agent to develop a phased migration roadmap"\n<commentary>\nThe user needs strategic project planning, which is a core product-manager responsibility.\n</commentary>\n</example>
-tools: Glob, Grep, Read, Write, Edit, WebFetch, TodoWrite, WebSearch
+tools: Glob, Grep, Read, WebFetch, WebSearch, ListMcpResourcesTool, ReadMcpResourceTool, Bash, Edit, Write, NotebookEdit
 model: opus
 color: cyan
 ---
