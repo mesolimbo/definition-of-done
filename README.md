@@ -12,7 +12,7 @@ These instructions will get your copy of the project up and running on your loca
 
 ### Prerequisites
 
-You need to have Docker (and optionally Ruby) installed to test locally:
+You need to have Docker (and optionally Ruby) installed to test on your local system:
 
 - Docker: You can install Docker by following the instructions on the official [Docker website](https://docs.docker.com/get-docker/).
 - Ruby: You can install Ruby by following the instructions on the official [Ruby website](https://www.ruby-lang.org/en/documentation/installation/).
