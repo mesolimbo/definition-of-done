@@ -4,7 +4,7 @@
 
 A guide for developers who build, release, and maintain quality software. Written as a data-driven DocOps Jekyll document.
 
-[You can read the compiled documentation here.](https://isitdone.work/)
+[Read the compiled documentation here.](https://isitdone.work/)
 
 ## Getting Started
 
