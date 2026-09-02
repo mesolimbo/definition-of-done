@@ -2,7 +2,7 @@
 
 [![Build GitHub Pages with Jekyll (with optional Deploy)](https://github.com/mesolimbo/definition-of-done/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mesolimbo/definition-of-done/actions/workflows/jekyll-gh-pages.yml)
 
-A guide for developers who build, release, and maintain quality software. Written as a data-driven DocOps Jekyll document.
+A guide for developers who build, release, and maintain quality software, and who want to be good caretakers. Written as a data-driven DocOps Jekyll document.
 
 [Read the compiled documentation here.](https://isitdone.work/)
 
