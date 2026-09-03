@@ -46,7 +46,7 @@ You need to have Docker (and optionally Ruby) installed to test on your local sy
     bundle exec rake docker:build
     ```
    
-5. You'll need to run steps 3 and 4 again to rebuild if the Gemfile or Gemfile.lock changes.
+5. You'll need to run steps 3 and 4 again if the Gemfile or Gemfile.lock changes.
 
 6. Run the Docker container:
     ```bash
