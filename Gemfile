@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'github-pages', group: :jekyll_plugins
-gem 'html-proofer', '5.2.2'
+gem 'html-proofer', '5.2.3'
 gem 'rake', '13.4.2'
 gem 'rubocop', '1.91.0', group: 'development', require: false
 gem 'webrick'
